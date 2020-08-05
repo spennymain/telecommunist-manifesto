@@ -1,6 +1,7 @@
 import React from "react";
 import { hot } from 'react-hot-loader'
 
+import * as provCons from './ProvidersConsumers'
 import * as preface from './PrefaceText'
 import './Manifesto.css'
 class Manifesto extends React.Component {
@@ -12,6 +13,8 @@ class Manifesto extends React.Component {
 				<p>{preface.briefIntro}</p>
 				<p>{preface.result}</p>
 			 <h1>I. Providers and Consumers</h1>
+				<p>{provCons.introClassStructure}</p>
+				<p>{provCons.theProviders}</p>
 			 <h1>II. Consumers and Telecommunists</h1>
 			 <h1>III. Principles of Telecommunism</h1>
 			 <h1>IV. Demands of the Telecommunist Party in Canada</h1>
