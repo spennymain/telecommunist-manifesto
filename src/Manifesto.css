@@ -4,4 +4,6 @@
 .Manifesto {
 	text-align: center;
 	font-family: monospace;
+	padding: 0 1.5rem 0 1.5rem;
+	line-height: 1.6; 
 }

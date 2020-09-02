@@ -4,7 +4,8 @@ import { hot } from "react-hot-loader";
 import * as provCons from "./ProvidersConsumers";
 import * as preface from "./PrefaceText";
 import * as consTel from "./ConsumersTelecommunists";
-import Principles from "./Principles.jsx";
+import Principles from "./Principles";
+import Demands from "./Demands";
 import "./Manifesto.css";
 class Manifesto extends React.Component {
   render() {
@@ -23,8 +24,9 @@ class Manifesto extends React.Component {
         <p>{consTel.telecommunistGoals}</p>
         <p>{consTel.distinguishingFacts}</p>
         <h1>III. Principles of Telecommunism</h1>
-					{Principles}
+        {Principles}
         <h1>IV. Demands of the Telecommunist Party in Canada</h1>
+        <Demands />
         <h1>
           V. Position of the Telecommunists in Relation to the Various Opposing
           Parties
