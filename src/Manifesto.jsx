@@ -6,6 +6,7 @@ import * as preface from "./PrefaceText";
 import * as consTel from "./ConsumersTelecommunists";
 import Principles from "./Principles";
 import Demands from "./Demands";
+import Positions from "./Positions";
 import "./Manifesto.css";
 class Manifesto extends React.Component {
   render() {
@@ -26,11 +27,12 @@ class Manifesto extends React.Component {
         <h1>III. Principles of Telecommunism</h1>
         {Principles}
         <h1>IV. Demands of the Telecommunist Party in Canada</h1>
-        <Demands />
+				{Demands}
         <h1>
           V. Position of the Telecommunists in Relation to the Various Opposing
           Parties
         </h1>
+				{Positions}
       </div>
     );
   }

@@ -6,7 +6,7 @@ const e2 = `2. A partnership with public universities to create competitive rese
 dedicated to expanding and improving our technological infrastructure`
 const a1 = `1. The working class consumers' dependency on private, for-profit, telecom
 companies to provide services essential for day-to-day life.`
-const a2 = `2. blah blah blah`
+const a2 = `2. Corporate and government infringements on the privacy of individuals and their data.`
 const Demands = () => (
 	<div className="Demands">
 		<div className="establish"><h2><u>Establish</u></h2>
